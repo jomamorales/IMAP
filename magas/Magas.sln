@@ -1,0 +1,94 @@
+Microsoft Visual Studio Solution File, Format Version 10.00
+# Visual Studio 2008
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Pop3", "pop3\Pop3.csproj", "{6EB93AE3-CBF9-4EBA-973E-D3C9B58D716C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magas.Web.UI", "Magas.Web.UI\Magas.Web.UI.csproj", "{228A7073-1268-43FF-B46A-1D78BCEC2FB9}"
+	ProjectSection(ProjectDependencies) = postProject
+		{E2656B93-372B-48EB-819A-A10D126CAAAD} = {E2656B93-372B-48EB-819A-A10D126CAAAD}
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magas.Core", "Magas.Core\Magas.Core.csproj", "{E56FCCBB-494C-4C54-A1E4-B1F83EB6A8DF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magas.Data", "Magas.Data\Magas.Data.csproj", "{781DE993-E9A6-43F1-A97C-83800DB0B578}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magas.Services", "Magas.Services\Magas.Services.csproj", "{708A6DEC-A005-48AC-82A2-581092989F6D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Magas.Data.Xml", "Magas.Data.Xml\Magas.Data.Xml.csproj", "{E2656B93-372B-48EB-819A-A10D126CAAAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Koolwired.Imap", "Koolwired.IMAP\Koolwired.Imap.csproj", "{B383E80F-0B52-48F7-94E1-5F4C2AF74833}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InterIMAP", "InterIMAP\InterIMAP.csproj", "{12A005BE-C03F-4950-8568-9814FDF61776}"
+EndProject
+Global
+	GlobalSection(TeamFoundationVersionControl) = preSolution
+		SccNumberOfProjects = 9
+		SccEnterpriseProvider = {4CA58AB2-18FA-4F8D-95D4-32DDF27D184C}
+		SccTeamFoundationServer = https://tfs10.codeplex.com/
+		SccLocalPath0 = .
+		SccProjectUniqueName1 = InterIMAP\\InterIMAP.csproj
+		SccProjectName1 = InterIMAP
+		SccLocalPath1 = InterIMAP
+		SccProjectUniqueName2 = Koolwired.IMAP\\Koolwired.Imap.csproj
+		SccProjectName2 = Koolwired.IMAP
+		SccLocalPath2 = Koolwired.IMAP
+		SccProjectUniqueName3 = Magas.Core\\Magas.Core.csproj
+		SccProjectName3 = Magas.Core
+		SccLocalPath3 = Magas.Core
+		SccProjectUniqueName4 = Magas.Data.Xml\\Magas.Data.Xml.csproj
+		SccProjectName4 = Magas.Data.Xml
+		SccLocalPath4 = Magas.Data.Xml
+		SccProjectUniqueName5 = Magas.Data\\Magas.Data.csproj
+		SccProjectName5 = Magas.Data
+		SccLocalPath5 = Magas.Data
+		SccProjectUniqueName6 = Magas.Services\\Magas.Services.csproj
+		SccProjectName6 = Magas.Services
+		SccLocalPath6 = Magas.Services
+		SccProjectUniqueName7 = Magas.Web.UI\\Magas.Web.UI.csproj
+		SccProjectName7 = Magas.Web.UI
+		SccLocalPath7 = Magas.Web.UI
+		SccProjectUniqueName8 = pop3\\Pop3.csproj
+		SccProjectName8 = pop3
+		SccLocalPath8 = pop3
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{6EB93AE3-CBF9-4EBA-973E-D3C9B58D716C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6EB93AE3-CBF9-4EBA-973E-D3C9B58D716C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6EB93AE3-CBF9-4EBA-973E-D3C9B58D716C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6EB93AE3-CBF9-4EBA-973E-D3C9B58D716C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{228A7073-1268-43FF-B46A-1D78BCEC2FB9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{228A7073-1268-43FF-B46A-1D78BCEC2FB9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{228A7073-1268-43FF-B46A-1D78BCEC2FB9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{228A7073-1268-43FF-B46A-1D78BCEC2FB9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E56FCCBB-494C-4C54-A1E4-B1F83EB6A8DF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E56FCCBB-494C-4C54-A1E4-B1F83EB6A8DF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E56FCCBB-494C-4C54-A1E4-B1F83EB6A8DF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E56FCCBB-494C-4C54-A1E4-B1F83EB6A8DF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{781DE993-E9A6-43F1-A97C-83800DB0B578}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{781DE993-E9A6-43F1-A97C-83800DB0B578}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{781DE993-E9A6-43F1-A97C-83800DB0B578}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{781DE993-E9A6-43F1-A97C-83800DB0B578}.Release|Any CPU.Build.0 = Release|Any CPU
+		{708A6DEC-A005-48AC-82A2-581092989F6D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{708A6DEC-A005-48AC-82A2-581092989F6D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{708A6DEC-A005-48AC-82A2-581092989F6D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{708A6DEC-A005-48AC-82A2-581092989F6D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2656B93-372B-48EB-819A-A10D126CAAAD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2656B93-372B-48EB-819A-A10D126CAAAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2656B93-372B-48EB-819A-A10D126CAAAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2656B93-372B-48EB-819A-A10D126CAAAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B383E80F-0B52-48F7-94E1-5F4C2AF74833}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B383E80F-0B52-48F7-94E1-5F4C2AF74833}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B383E80F-0B52-48F7-94E1-5F4C2AF74833}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B383E80F-0B52-48F7-94E1-5F4C2AF74833}.Release|Any CPU.Build.0 = Release|Any CPU
+		{12A005BE-C03F-4950-8568-9814FDF61776}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{12A005BE-C03F-4950-8568-9814FDF61776}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{12A005BE-C03F-4950-8568-9814FDF61776}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{12A005BE-C03F-4950-8568-9814FDF61776}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
